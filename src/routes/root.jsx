@@ -1,5 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 
-export default RootRoutes = {
-    
+export const  ProjectRoutes = () => {
+    return (
+        <Routes>
+            <Route path="/" element={<div></div>}/>
+        </Routes>
+    );
 }
